@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.basicdeb.calculadorares.ui.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/main_fragment">
+        <action
+            android:id="@+id/action_mainFragment_to_resistenciasFragment"
+            app:destination="@id/resistenciasFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_inductoresFragment"
+            app:destination="@id/inductoresFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_fresnelFragment"
+            app:destination="@id/fresnelFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_perdidasFragment"
+            app:destination="@id/perdidasFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resistenciasFragment"
+        android:name="com.basicdeb.calculadorares.ui.calculadoras.ResistenciasFragment"
+        android:label="resistencias_fragment"
+        tools:layout="@layout/resistencias_fragment" />
+
+    <fragment
+        android:id="@+id/inductoresFragment"
+        android:name="com.basicdeb.calculadorares.ui.calculadoras.InductoresFragment"
+        android:label="InductoresFragment"
+        tools:layout="@layout/inductores_fragment" />
+    <fragment
+        android:id="@+id/fresnelFragment"
+        android:name="com.basicdeb.calculadorares.ui.calculadoras.FresnelFragment"
+        android:label="FresnelFragment"
+        tools:layout="@layout/fresnel_fragment" />
+    <fragment
+        android:id="@+id/perdidasFragment"
+        android:name="com.basicdeb.calculadorares.ui.calculadoras.PerdidasFragment"
+        android:label="PerdidasFragment"
+        tools:layout="@layout/perdidas_fragment" />
+</navigation>

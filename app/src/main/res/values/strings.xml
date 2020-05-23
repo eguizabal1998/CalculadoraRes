@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Electro All</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_0">0</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="x10_0">x10^0</string>
+    <string name="x10_1">x10^1</string>
+    <string name="x10_2">x10^2</string>
+    <string name="x10_3">x10^3</string>
+    <string name="x10_4">x10^4</string>
+    <string name="x10_5">x10^5</string>
+    <string name="x10_6">x10^6</string>
+    <string name="x10_7">x10^7</string>
+    <string name="x10_8">x10^8</string>
+    <string name="x10_9">x10^9</string>
+    <string name="x10_10">x10^-1</string>
+    <string name="x10_11">x10^-2</string>
+    <string name="_3_bandas">3 Bandas</string>
+    <string name="_4_bandas">4 Bandas</string>
+    <string name="_5_bandas">5 Bandas</string>
+    <string name="_6_bandas">6 Bandas</string>
+    <string name="multi">Multi</string>
+    <string name="tol">Tol</string>
+    <string name="ppm_k">ppm/K</string>
+    <string name="_250">250</string>
+    <string name="_100">100</string>
+    <string name="_50">50</string>
+    <string name="_15">15</string>
+    <string name="_25">25</string>
+    <string name="_20">20</string>
+    <string name="_10">10</string>
+    <string name="_0_05">±0.05%</string>
+    <string name="_per5cent">±5%</string>
+    <string name="_10percent">±10%</string>
+    <string name="_0_1percent">±0.1%</string>
+    <string name="_0_25percent">±0.25%</string>
+    <string name="_0_5percent">±0.5%</string>
+    <string name="_4percent">±4%</string>
+    <string name="_3percent">±3%</string>
+    <string name="_2percent">±2%</string>
+    <string name="_1percent">±1%</string>
+    <string name="resistencias">Resistencias</string>
+    <string name="calculadoras">Calculadoras</string>
+    <string name="inductores">Inductores</string>
+
+    <string name="negro">Negro</string>
+    <string name="cafe">Cafe</string>
+    <string name="rojo">Rojo</string>
+    <string name="naranja">Naranja</string>
+    <string name="amarillo">Amarillo</string>
+    <string name="verde">Verde</string>
+    <string name="azul">Azul</string>
+    <string name="violeta">Violeta</string>
+    <string name="gris">Gris</string>
+    <string name="blanco">Blanco</string>
+    <string name="oro">Oro</string>
+    <string name="plata">Plata</string>
+    <string name="banda_1">Banda 1</string>
+    <string name="banda_2">Banda 2</string>
+    <string name="banda_3">Banda 3</string>
+    <string name="banda_4">Banda 4</string>
+    <string name="electronica">Electronica Basica</string>
+    <string name="telecomunicaciones">Telecomunicaciones</string>
+    <string name="zona_de_fresnel">Zona de Fresnel</string>
+    <string name="admodID">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admodIDPrueba">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="r_de_fresnel_n">R de Fresnel N°</string>
+    <string name="frecuencia">Frecuencia</string>
+    <string name="distancia_1">Distancia 1</string>
+    <string name="distancia_2">Distancia 2</string>
+    <string name="radio">Radio:</string>
+    <string name="calcular">Calcular</string>
+    <string name="obtruccion">Obtruccion:</string>
+    <string name="altura_obstaculo">Altura Obstaculo</string>
+    <string name="altura_antena">Altura Antena 1</string>
+    <string name="altura_antena2">Antena 2</string>
+    <string name="perdidas_en_enlaces">Perdidas en enlaces</string>
+
+    <string-array name="radioFres">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="Frecu">
+        <item>Hz</item>
+        <item>KHz</item>
+        <item>MHz</item>
+        <item>GHz</item>
+        <item>Thz</item>
+    </string-array>
+
+    <string-array name="Metric">
+        <item>m</item>
+        <item>Km</item>
+    </string-array>
+
+
+</resources>

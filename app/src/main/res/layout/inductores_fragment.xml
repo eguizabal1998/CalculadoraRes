@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.basicdeb.calculadorares.viewModel.calculadoras.InductoresViewModel" />
+    </data>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    tools:text="255 Kohm"
+                    android:text="@={viewModel.inductanciaS}" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    tools:text="+1%"
+                    android:text="@={viewModel.toleranciaS}" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+
+                <View
+                    android:id="@+id/upB1"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:background="@drawable/ic_arrow_drop_up_black_24dp"
+                    android:onClick="@{()-> viewModel.aumentar(1)}" />
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="80dp" />
+
+                <View
+                    android:id="@+id/upB2"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:background="@drawable/ic_arrow_drop_up_black_24dp"
+                    android:onClick="@{()-> viewModel.aumentar(2)}" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="80dp" />
+
+                <View
+                    android:id="@+id/upB3"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:background="@drawable/ic_arrow_drop_up_black_24dp"
+                    android:onClick="@{()-> viewModel.aumentar(3)}" />
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="80dp" />
+
+                <View
+                    android:id="@+id/upB4"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:background="@drawable/ic_arrow_drop_up_black_24dp"
+                    android:onClick="@{()-> viewModel.aumentar(4)}" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ic_inductorextremoi" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/ic_inducmedios" />
+
+                <View
+                    android:id="@+id/inductores_b1"
+                    android:layout_width="15dp"
+                    android:layout_height="80dp"
+                    android:background="@color/negro" />
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/ic_inducmedios" />
+
+                <View
+                    android:id="@+id/inductores_b2"
+                    android:layout_width="15dp"
+                    android:layout_height="80dp"
+                    android:background="@color/negro" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/ic_inducmedios" />
+
+                <View
+                    android:id="@+id/inductores_b3"
+                    android:layout_width="15dp"
+                    android:layout_height="80dp"
+                    android:background="@color/negro" />
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/ic_inducmedios" />
+
+                <View
+                    android:id="@+id/inductores_b4"
+                    android:layout_width="15dp"
+                    android:layout_height="80dp"
+                    android:background="@color/negro" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/ic_inducmedios" />
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ic_inductorextremod" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+                <View
+                    android:id="@+id/downB1"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:background="@drawable/ic_arrow_drop_down_black_24dp"
+                    android:onClick="@{()-> viewModel.disminuir(1)}" />
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="80dp" />
+
+                <View
+                    android:id="@+id/downB2"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:background="@drawable/ic_arrow_drop_down_black_24dp"
+                    android:onClick="@{()-> viewModel.disminuir(2)}" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="80dp" />
+
+                <View
+                    android:id="@+id/downB3"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:background="@drawable/ic_arrow_drop_down_black_24dp"
+                    android:onClick="@{()-> viewModel.disminuir(3)}" />
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="80dp" />
+
+                <View
+                    android:id="@+id/downB4"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:background="@drawable/ic_arrow_drop_down_black_24dp"
+                    android:onClick="@{()-> viewModel.disminuir(4)}" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/banda_1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="@color/negro"
+                app:layout_constraintBottom_toBottomOf="@+id/textView"
+                app:layout_constraintStart_toEndOf="@+id/textView"
+                app:layout_constraintTop_toTopOf="@+id/textView"
+                android:layout_marginStart="20dp" />
+
+            <TextView
+                android:id="@+id/inductores_color1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Negro"
+                app:layout_constraintBottom_toBottomOf="@+id/view"
+                app:layout_constraintStart_toEndOf="@+id/view"
+                app:layout_constraintTop_toTopOf="@+id/view"
+                android:layout_marginStart="15dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/banda_2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="@color/negro"
+                app:layout_constraintBottom_toBottomOf="@+id/textView2"
+                app:layout_constraintStart_toEndOf="@+id/textView2"
+                app:layout_constraintTop_toTopOf="@+id/textView2"
+                android:layout_marginStart="20dp" />
+
+            <TextView
+                android:id="@+id/inductores_color2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Negro"
+                app:layout_constraintBottom_toBottomOf="@+id/view2"
+                app:layout_constraintStart_toEndOf="@+id/view2"
+                app:layout_constraintTop_toTopOf="@+id/view2"
+                android:layout_marginStart="15dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/banda_3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="@color/negro"
+                app:layout_constraintBottom_toBottomOf="@+id/textView3"
+                app:layout_constraintStart_toEndOf="@+id/textView3"
+                app:layout_constraintTop_toTopOf="@+id/textView3"
+                android:layout_marginStart="20dp" />
+
+            <TextView
+                android:id="@+id/inductores_color3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Negro"
+                app:layout_constraintBottom_toBottomOf="@+id/view3"
+                app:layout_constraintStart_toEndOf="@+id/view3"
+                app:layout_constraintTop_toTopOf="@+id/view3"
+                android:layout_marginStart="15dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/banda_4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="20dp"
+                android:background="@color/negro"
+                app:layout_constraintBottom_toBottomOf="@+id/textView4"
+                app:layout_constraintStart_toEndOf="@+id/textView4"
+                app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+            <TextView
+                android:id="@+id/inductores_color4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Negro"
+                app:layout_constraintBottom_toBottomOf="@+id/view4"
+                app:layout_constraintStart_toEndOf="@+id/view4"
+                app:layout_constraintTop_toTopOf="@+id/view4"
+                android:layout_marginStart="15dp" />
+
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                app:adSize="BANNER"
+                app:adUnitId="@string/admodID"
+                android:layout_marginTop="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view4">
+
+            </com.google.android.gms.ads.AdView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+</layout>

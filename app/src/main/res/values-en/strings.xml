@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Electro All</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_0">0</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="x10_0">x10^0</string>
+    <string name="x10_1">x10^1</string>
+    <string name="x10_2">x10^2</string>
+    <string name="x10_3">x10^3</string>
+    <string name="x10_4">x10^4</string>
+    <string name="x10_5">x10^5</string>
+    <string name="x10_6">x10^6</string>
+    <string name="x10_7">x10^7</string>
+    <string name="x10_8">x10^8</string>
+    <string name="x10_9">x10^9</string>
+    <string name="x10_10">x10^-1</string>
+    <string name="x10_11">x10^-2</string>
+    <string name="_3_bandas">3 Bands</string>
+    <string name="_4_bandas">4 Bands</string>
+    <string name="_5_bandas">5 Bands</string>
+    <string name="_6_bandas">6 Bands</string>
+    <string name="multi">Multi</string>
+    <string name="tol">Tol</string>
+    <string name="ppm_k">ppm/K</string>
+    <string name="_250">250</string>
+    <string name="_100">100</string>
+    <string name="_50">50</string>
+    <string name="_15">15</string>
+    <string name="_25">25</string>
+    <string name="_20">20</string>
+    <string name="_10">10</string>
+    <string name="_0_05">±0.05%</string>
+    <string name="_per5cent">±5%</string>
+    <string name="_10percent">±10%</string>
+    <string name="_0_1percent">±0.1%</string>
+    <string name="_0_25percent">±0.25%</string>
+    <string name="_0_5percent">±0.5%</string>
+    <string name="_4percent">±4%</string>
+    <string name="_3percent">±3%</string>
+    <string name="_2percent">±2%</string>
+    <string name="_1percent">±1%</string>
+    <string name="resistencias">Resistors</string>
+    <string name="calculadoras">calculators</string>
+    <string name="inductores">Inductors</string>
+    <string name="rojo">Red</string>
+    <string name="cafe">Brown</string>
+    <string name="negro">Black</string>
+    <string name="naranja">Orange</string>
+    <string name="amarillo">Yellow</string>
+    <string name="verde">Green</string>
+    <string name="azul">Blue</string>
+    <string name="violeta">Purple</string>
+    <string name="oro">Gold</string>
+    <string name="plata">Silver</string>
+    <string name="gris">Gray</string>
+    <string name="blanco">White</string>
+    <string name="banda_1">Band 1</string>
+    <string name="banda_2">Band 2</string>
+    <string name="banda_3">Band 3</string>
+    <string name="banda_4">Band 4</string>
+    <string name="electronica">Basic Electronic</string>
+    <string name="telecomunicaciones">Telecomunications</string>
+    <string name="zona_de_fresnel">Fresnel Zone</string>
+    <string name="admodID">ca-app-pub-7939671701124128/6535830754</string>
+
+    <string-array name="radioFres">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="Frecu">
+        <item>Hz</item>
+        <item>KHz</item>
+        <item>MHz</item>
+        <item>GHz</item>
+        <item>Thz</item>
+    </string-array>
+
+    <string-array name="Metric">
+        <item>m</item>
+        <item>Km</item>
+    </string-array>
+    <string name="r_de_fresnel_n">Fresnel R N°</string>
+    <string name="frecuencia">Frequency</string>
+    <string name="distancia_1">Distance 1</string>
+    <string name="distancia_2">Distance 2</string>
+    <string name="radio">Radius:</string>
+    <string name="calcular">Calculate</string>
+    <string name="obtruccion">Obstruction</string>
+    <string name="altura_obstaculo">"Obstacle Height "</string>
+    <string name="altura_antena">Antena Height</string>
+    <string name="admodIDPrueba">ca-app-pub-7939671701124128/6535830754</string>
+    <string name="altura_antena2">Antena 2</string>
+    <string name="perdidas_en_enlaces">Links loss</string>
+</resources>
